@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heroes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="navbar">
@@ -21,34 +24,40 @@
 
   <header class="header">
       <div class="container">
+        <div>
           <h1>This website is awesome</h1>
           <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
           <button class="signup1">
             Sign up
           </button>
-       </div>
-       <img src="images/avengers.jpg" alt="The Marvel Trinity">
+        </div>  
+          <img src="images/avengers.jpg" class="image1" alt="The Marvel Trinity">
+       </div>    
   </header>
 
   <div class="gallery">
-    <div class="plants">
+    <div class="info">
+      <h2>Bios</h2>
+    </div>
+    <div class="heroes">  
         <div class="photo">
-          <img src="images/antman.jpg" alt="Ant-Man">
-          <div class="text">This is some subtext under an illustration or image</div>
+          <img src="images/antman.jpg" class="image2" alt="Ant-Man">
+          <div class="text">Ant-Man</div>
         </div>
         <div class="photo">
-          <img src="images/cap.jpg" alt="Captain America">
-          <div class="text">TThis is some subtext under an illustration or image</div>
+          <img src="images/cap.jpg" class="image2" alt="Captain America">
+          <div class="text">Captain America</div>
         </div>
         <div class="photo">
-          <img src="images/deadpool.jpg" alt="Deadpool">
-          <div class="text">This is some subtext under an illustration or image</div>
+          <img src="images/deadpool.jpg" class="image2" alt="Deadpool">
+          <div class="text">Deadpool</div>
         </div>
         <div class="photo">
-          <img src="images/spidy.jpg" alt="Spider-Man">
-          <div class="text">This is some subtext under an illustration or image</div>
+          <img src="images/spidy.jpg" class="image2" alt="Spider-Man">
+          <div class="text">Spider-Man</div>
         </div>  
     </div>
+  </div>  
 
     <div class="quote">
       <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
@@ -66,9 +75,6 @@
     <div class="footer">
         <div>Copyright © The Odin Project 2022</div>
     </div>
-
   </div>
-
-
 </body>
 </html>
