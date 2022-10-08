@@ -14,14 +14,11 @@ h1 {
 }
 
 .navbar {
+    background-color: #1f2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px
-}
-
-.navbar {
-    background-color: #1f2937;
 }
 
 .navbar ul {
@@ -75,12 +72,15 @@ a {
     background-color: #1f2937;
 }
 
-.quote {
-    background-color: #e5e7eb;
-}
-
-.signup {
-    background-color: #3882f6;
+.heroes {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    margin: 20px;
+    padding-bottom: 150px; 
 }
 
 h2 {
@@ -89,6 +89,7 @@ h2 {
     color: #1f2937;
     font-weight: bolder;
     justify-content: center;
+    padding-top: 50px;
     padding-bottom: 20px;
     margin: 40px;
 }
@@ -102,16 +103,66 @@ h2 {
     margin-bottom: 10px;
 }
 
-.heroes {
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
     display: flex;
+    padding: 150px 450px;
     justify-content: center;
-    text-align: center;
-    gap: 60px;
-    margin: 20px;
-    padding-bottom: 80px;
-    font-size: 16px;
-    font-weight: bold;
-    
+    align-items: center;
+    flex-direction: column;
 }
 
+.quote span {
+    float: right;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    padding: 10px 70px;
+}
 
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .container {
+    background-color: #3882f6;
+    margin: 150px;
+    padding: 40px 80px;
+    width: 1200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.text {
+    color: #f9faf8;
+}
+
+.signup2 {
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border: 2px solid;
+    border-color: #f9faf8;
+    border-radius: 10px;
+}
+
+.footer {
+    color: #f9faf8;
+    font-size: 16px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
