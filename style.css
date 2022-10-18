@@ -48,9 +48,13 @@ a {
     min-height: 400px;
 }
 
+.awesome {
+    margin-left: 90px;
+    max-width: 400px;
+}
 .header .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 100px;
 }
 
@@ -65,7 +69,9 @@ a {
 }
 
 .image1 {
-    max-width: 400px;
+    width: 500px;
+    margin-right: 90px;
+    height: 280px;
 }
 
 .footer {
@@ -103,6 +109,9 @@ h2 {
     margin-bottom: 10px;
 }
 
+.caption {
+    font-size: 18px;
+}
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
